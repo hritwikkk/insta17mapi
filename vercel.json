@@ -3,6 +3,10 @@
     {
       "source": "/search",
       "destination": "/api/index.js"
+    },
+    {
+      "source": "/mob",
+      "destination": "/api/mobile.js"
     }
   ]
 }
