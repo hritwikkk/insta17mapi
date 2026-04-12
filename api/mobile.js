@@ -8,7 +8,7 @@ export default async function handler(req, res) {
 
   try {
     // 8002 port wali API ko call karna
-    const response = await fetch(`http://103.25.175.203:8002/?mob=${encodeURIComponent(mob)}`);
+    const response = await fetch(`http://103.25.175.216:8001/?mob=${encodeURIComponent(mob)}`);
     const data = await response.json();
 
     // Browser ko JSON return karna
